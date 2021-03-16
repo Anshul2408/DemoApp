@@ -18,7 +18,7 @@ import com.cap.demo.service.EmpServiceImpl;
 @RestController
 @RequestMapping("/employee")//optional
 public class EmpController {//http://localhost:2424/employee/getEmployee/123
-
+//putting in github
 	@Autowired
 	EmpServiceImpl service;
 	@GetMapping("/getEmployee/{tid}")//mand//json
